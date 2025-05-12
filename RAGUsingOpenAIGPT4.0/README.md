@@ -1,7 +1,5 @@
 # RAG using OpenAI's Assistant API : GPT-Series
 
-This repository provides a practical guide to building Retrieval-Augmented Generation (RAG) systems using OpenAI’s Assistant API with Large Language Models (LLMs) from GPT Series, and PDF documents as the primary data source. The guide walks developers through the steps of setting up a vector store, creating an AI assistant, and managing conversation threads to effectively implement RAG systems.
-
 ## Prerequisites
 
 - Python 3.11 or higher
@@ -9,25 +7,19 @@ This repository provides a practical guide to building Retrieval-Augmented Gener
 - PDF documents to serve as the knowledge base
 
 ## Installation
-
-1. Clone this repository.
-    ```bash
-    git clone https://github.com/GPT-Laboratory/RAG-LLM-Development-Guidebook-from-PDFs
-    cd RAGUsingOpenAIGPT4.0
-    ```
-3. Install the required Python packages:
+1. Install the required Python packages:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Add your OpenAI API key to the `.env` file in the same directory as `main.py`:
+2. Add your OpenAI API key to the `.env` file in the same directory as `*.py` programs:
     ```
     OPENAI_API_KEY=your_openai_api_key_here
     ```
 
 ## Setting Up
 
-1. Place your PDF documents in `Upload` folder in the same directory as `main.py`.
+1. Place your PDF documents in `Upload` folder in the same directory as `*.py`.
 2. The environment variables will be loaded from the `.env` file, and the script will automatically interact with the OpenAI API.
 
 ## How to Use
