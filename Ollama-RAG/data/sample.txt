@@ -1,0 +1,4 @@
+
+LangChain + Olllama RAG Test Document
+
+This document discusses embeddings , retrieval,  LangChain text splitters, and running local LLMs such as phi3, mistral, and llama3.1 via Olama.
